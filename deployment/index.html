@@ -1,4 +1,6 @@
 
+
+
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
@@ -10,9 +12,8 @@
       
       
       
-      
-      <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.4">
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1, mkdocs-material-5.1.1">
     
     
       
@@ -20,43 +21,29 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.f7f47774.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.a676eddb.min.css">
       
-        
-        <link rel="stylesheet" href="../assets/stylesheets/palette.3f5d1f46.min.css">
-        
       
     
     
     
       
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
       
     
     
     
     
       
-
-
     
     
   </head>
   
   
-    
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+    <body dir="ltr">
   
-    
-    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
-    
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
@@ -73,61 +60,53 @@
     </div>
     
       <header class="md-header" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Uvicorn" class="md-header__button md-logo" aria-label="Uvicorn" data-md-component="logo">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href=".." title="Uvicorn" class="md-header-nav__button md-logo" aria-label="Uvicorn">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,8A3,3 0 0,0 15,5A3,3 0 0,0 12,2A3,3 0 0,0 9,5A3,3 0 0,0 12,8M12,11.54C9.64,9.35 6.5,8 3,8V19C6.5,19 9.64,20.35 12,22.54C14.36,20.35 17.5,19 21,19V8C17.5,8 14.36,9.35 12,11.54Z" /></svg>
 
     </a>
-    <label class="md-header__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
     </label>
-    <div class="md-header__title" data-md-component="header-title">
-      <div class="md-header__ellipsis">
-        <div class="md-header__topic">
-          <span class="md-ellipsis">
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
             Uvicorn
           </span>
-        </div>
-        <div class="md-header__topic" data-md-component="header-topic">
-          <span class="md-ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
             
               Deployment
             
           </span>
         </div>
-      </div>
+      
     </div>
     
-    
-    
-      <label class="md-header__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
       </label>
       
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
       <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
       </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
-        </button>
-      </nav>
-      
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" /></svg>
+      </button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Initializing search
+            Type to start searching
           </div>
           <ol class="md-search-result__list"></ol>
         </div>
@@ -137,12 +116,12 @@
 </div>
     
     
-      <div class="md-header__source">
+      <div class="md-header-nav__source">
         
-<a href="https://github.com/encode/uvicorn" title="Go to repository" class="md-source" data-md-component="source">
+<a href="https://github.com/encode/uvicorn" title="Go to repository" class="md-source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     encode/uvicorn
@@ -155,6 +134,8 @@
     
     <div class="md-container" data-md-component="container">
       
+        
+      
       
         
       
@@ -162,108 +143,120 @@
         <div class="md-main__inner md-grid">
           
             
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
-                    
+                    <!-- Determine class according to configuration -->
+ 
+ 
+ 
 
+ <!-- Main navigation -->
+ <nav
+   class="md-nav md-nav--primary"
+   aria-label="Navigation"
+   data-md-level="0"
+ >
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Uvicorn" class="md-nav__button md-logo" aria-label="Uvicorn" data-md-component="logo">
-      
+   <!-- Site title -->
+   <label class="md-nav__title" for="__drawer">
+     <a
+       href=".."
+       title="Uvicorn"
+       class="md-nav__button md-logo"
+       aria-label="Uvicorn"
+       data-md-component="logo"
+     >
+       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,8A3,3 0 0,0 15,5A3,3 0 0,0 12,2A3,3 0 0,0 9,5A3,3 0 0,0 12,8M12,11.54C9.64,9.35 6.5,8 3,8V19C6.5,19 9.64,20.35 12,22.54C14.36,20.35 17.5,19 21,19V8C17.5,8 14.36,9.35 12,11.54Z" /></svg>
 
-    </a>
-    Uvicorn
-  </label>
-  
-    <div class="md-nav__source">
-      
-<a href="https://github.com/encode/uvicorn" title="Go to repository" class="md-source" data-md-component="source">
+     </a>
+     Uvicorn
+   </label>
+
+   <!-- Repository information -->
+   
+     <div class="md-nav__source">
+       
+<a href="https://github.com/encode/uvicorn" title="Go to repository" class="md-source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     encode/uvicorn
   </div>
 </a>
-    </div>
+     </div>
+   
+
+   <!-- Render item list -->
+   <ul class="md-nav__list" data-md-scrollfix>
+     
+       
+       
+       
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+     
+       
+       
+       
+
+
+  <li class="md-nav__item">
+    <a href="../settings/" title="Settings" class="md-nav__link">
+      Settings
+    </a>
+  </li>
+
+     
+       
+       
+       
+
   
-  <ul class="md-nav__list" data-md-scrollfix>
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
       
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
-        Introduction
-      </a>
-    </li>
-  
-
     
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../settings/" class="md-nav__link">
-        Settings
-      </a>
-    </li>
-  
-
     
-      
-      
-      
-
-  
-  
-    
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Deployment
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+      <label class="md-nav__link md-nav__link--active" for="__toc">
         Deployment
-      </a>
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,9H17V7H3V9M3,13H17V11H3V13M3,17H17V15H3V17M19,17H21V15H19V17M19,7V9H21V7H19M19,13H21V11H19V13Z" /></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Deployment" class="md-nav__link md-nav__link--active">
+      Deployment
+    </a>
+    
       
-        
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
   
   
     
   
   
     <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
       Table of contents
     </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+    <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
   <a href="#running-from-the-command-line" class="md-nav__link">
@@ -350,50 +343,52 @@
     </ul>
   
 </nav>
-      
-    </li>
-  
-
     
-      
-      
-      
+  </li>
 
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../server-behavior/" class="md-nav__link">
-        Server Behavior
-      </a>
-    </li>
-  
+     
+       
+       
+       
 
-    
-  </ul>
-</nav>
+
+  <li class="md-nav__item">
+    <a href="../server-behavior/" title="Server Behavior" class="md-nav__link">
+      Server Behavior
+    </a>
+  </li>
+
+     
+   </ul>
+
+   <ul class="md-nav__list" data-md-scrollfix style="padding-top: 15px; padding-left: 10px">
+     <div>
+       <a href=""><img src="/sponsors/fastapi.png" width=150px style=></img></a>
+     </div>
+   </ul>
+ </nav>
                   </div>
                 </div>
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
-  
     
   
   
     <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
       Table of contents
     </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+    <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
   <a href="#running-from-the-command-line" class="md-nav__link">
@@ -485,9 +480,12 @@
               </div>
             
           
-          <div class="md-content" data-md-component="content">
+          <div class="md-content">
             <article class="md-content__inner md-typeset">
               
+                
+                
+                  
                 
                 
                 <h1 id="deployment">Deployment<a class="headerlink" href="#deployment" title="Permanent link">&para;</a></h1>
@@ -504,101 +502,103 @@
 <div class="highlight"><pre><span></span><code>$ uvicorn example:app --reload --port <span class="m">5000</span>
 </code></pre></div>
 
+
 <p>The ASGI application should be specified in the form <code>path.to.module:instance.path</code>.</p>
 <p>When running locally, use <code>--reload</code> to turn on auto-reloading.</p>
 <p>To see the complete set of available options, use <code>uvicorn --help</code>:</p>
 <!-- :cli_usage: -->
 
-<div class="highlight"><pre><span></span><code><span class="o">$</span> <span class="n">uvicorn</span> <span class="o">--</span><span class="n">help</span>
-<span class="n">Usage</span><span class="p">:</span> <span class="n">uvicorn</span> <span class="p">[</span><span class="n">OPTIONS</span><span class="p">]</span> <span class="n">APP</span>
+<div class="highlight"><pre><span></span><code><span class="err">$</span><span class="w"> </span><span class="n">uvicorn</span><span class="w"> </span><span class="c1">--help</span>
+<span class="k">Usage</span><span class="err">:</span><span class="w"> </span><span class="n">uvicorn</span><span class="w"> </span><span class="o">[</span><span class="n">OPTIONS</span><span class="o">]</span><span class="w"> </span><span class="n">APP</span><span class="w"></span>
 
-<span class="n">Options</span><span class="p">:</span>
-  <span class="o">--</span><span class="n">host</span> <span class="n">TEXT</span>                     <span class="n">Bind</span> <span class="n">socket</span> <span class="n">to</span> <span class="n">this</span> <span class="n">host</span><span class="o">.</span>  <span class="p">[</span><span class="n">default</span><span class="p">:</span>
-                                  <span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">]</span>
-  <span class="o">--</span><span class="n">port</span> <span class="n">INTEGER</span>                  <span class="n">Bind</span> <span class="n">socket</span> <span class="n">to</span> <span class="n">this</span> <span class="n">port</span><span class="o">.</span>  <span class="p">[</span><span class="n">default</span><span class="p">:</span> <span class="mi">8000</span><span class="p">]</span>
-  <span class="o">--</span><span class="n">uds</span> <span class="n">TEXT</span>                      <span class="n">Bind</span> <span class="n">to</span> <span class="n">a</span> <span class="n">UNIX</span> <span class="n">domain</span> <span class="n">socket</span><span class="o">.</span>
-  <span class="o">--</span><span class="n">fd</span> <span class="n">INTEGER</span>                    <span class="n">Bind</span> <span class="n">to</span> <span class="n">socket</span> <span class="n">from</span> <span class="n">this</span> <span class="n">file</span> <span class="n">descriptor</span><span class="o">.</span>
-  <span class="o">--</span><span class="n">reload</span>                        <span class="n">Enable</span> <span class="n">auto</span><span class="o">-</span><span class="n">reload</span><span class="o">.</span>
-  <span class="o">--</span><span class="n">reload</span><span class="o">-</span><span class="n">dir</span> <span class="n">PATH</span>               <span class="n">Set</span> <span class="n">reload</span> <span class="n">directories</span> <span class="n">explicitly</span><span class="p">,</span> <span class="n">instead</span>
-                                  <span class="n">of</span> <span class="n">using</span> <span class="n">the</span> <span class="n">current</span> <span class="n">working</span> <span class="n">directory</span><span class="o">.</span>
-  <span class="o">--</span><span class="n">reload</span><span class="o">-</span><span class="n">include</span> <span class="n">TEXT</span>           <span class="n">Set</span> <span class="n">glob</span> <span class="n">patterns</span> <span class="n">to</span> <span class="n">include</span> <span class="k">while</span> <span class="n">watching</span>
-                                  <span class="k">for</span> <span class="n">files</span><span class="o">.</span> <span class="n">Includes</span> <span class="s1">&#39;*.py&#39;</span> <span class="n">by</span> <span class="n">default</span><span class="p">,</span> <span class="n">which</span>
-                                  <span class="n">can</span> <span class="n">be</span> <span class="n">overridden</span> <span class="ow">in</span> <span class="n">reload</span><span class="o">-</span><span class="n">excludes</span><span class="o">.</span>
-  <span class="o">--</span><span class="n">reload</span><span class="o">-</span><span class="n">exclude</span> <span class="n">TEXT</span>           <span class="n">Set</span> <span class="n">glob</span> <span class="n">patterns</span> <span class="n">to</span> <span class="n">exclude</span> <span class="k">while</span> <span class="n">watching</span>
-                                  <span class="k">for</span> <span class="n">files</span><span class="o">.</span> <span class="n">Includes</span> <span class="s1">&#39;.*, .py[cod], .sw.*,</span>
-                                  <span class="o">~*</span><span class="s1">&#39; by default, which can be overridden in</span>
-                                  <span class="n">reload</span><span class="o">-</span><span class="n">excludes</span><span class="o">.</span>
-  <span class="o">--</span><span class="n">reload</span><span class="o">-</span><span class="n">delay</span> <span class="n">FLOAT</span>            <span class="n">Delay</span> <span class="n">between</span> <span class="n">previous</span> <span class="ow">and</span> <span class="n">next</span> <span class="n">check</span> <span class="k">if</span>
-                                  <span class="n">application</span> <span class="n">needs</span> <span class="n">to</span> <span class="n">be</span><span class="o">.</span> <span class="n">Defaults</span> <span class="n">to</span> <span class="mf">0.25</span><span class="n">s</span><span class="o">.</span>
-                                  <span class="p">[</span><span class="n">default</span><span class="p">:</span> <span class="mf">0.25</span><span class="p">]</span>
-  <span class="o">--</span><span class="n">workers</span> <span class="n">INTEGER</span>               <span class="n">Number</span> <span class="n">of</span> <span class="n">worker</span> <span class="n">processes</span><span class="o">.</span> <span class="n">Defaults</span> <span class="n">to</span> <span class="n">the</span>
-                                  <span class="o">$</span><span class="n">WEB_CONCURRENCY</span> <span class="n">environment</span> <span class="n">variable</span> <span class="k">if</span>
-                                  <span class="n">available</span><span class="p">,</span> <span class="ow">or</span> <span class="mf">1.</span> <span class="n">Not</span> <span class="n">valid</span> <span class="n">with</span> <span class="o">--</span><span class="n">reload</span><span class="o">.</span>
-  <span class="o">--</span><span class="n">loop</span> <span class="p">[</span><span class="n">auto</span><span class="o">|</span><span class="n">asyncio</span><span class="o">|</span><span class="n">uvloop</span><span class="p">]</span>    <span class="n">Event</span> <span class="n">loop</span> <span class="n">implementation</span><span class="o">.</span>  <span class="p">[</span><span class="n">default</span><span class="p">:</span> <span class="n">auto</span><span class="p">]</span>
-  <span class="o">--</span><span class="n">http</span> <span class="p">[</span><span class="n">auto</span><span class="o">|</span><span class="n">h11</span><span class="o">|</span><span class="n">httptools</span><span class="p">]</span>     <span class="n">HTTP</span> <span class="n">protocol</span> <span class="n">implementation</span><span class="o">.</span>  <span class="p">[</span><span class="n">default</span><span class="p">:</span>
-                                  <span class="n">auto</span><span class="p">]</span>
-  <span class="o">--</span><span class="n">ws</span> <span class="p">[</span><span class="n">auto</span><span class="o">|</span><span class="n">none</span><span class="o">|</span><span class="n">websockets</span><span class="o">|</span><span class="n">wsproto</span><span class="p">]</span>
-                                  <span class="n">WebSocket</span> <span class="n">protocol</span> <span class="n">implementation</span><span class="o">.</span>
-                                  <span class="p">[</span><span class="n">default</span><span class="p">:</span> <span class="n">auto</span><span class="p">]</span>
-  <span class="o">--</span><span class="n">ws</span><span class="o">-</span><span class="nb">max</span><span class="o">-</span><span class="n">size</span> <span class="n">INTEGER</span>           <span class="n">WebSocket</span> <span class="nb">max</span> <span class="n">size</span> <span class="n">message</span> <span class="ow">in</span> <span class="n">bytes</span>
-                                  <span class="p">[</span><span class="n">default</span><span class="p">:</span> <span class="mi">16777216</span><span class="p">]</span>
-  <span class="o">--</span><span class="n">ws</span><span class="o">-</span><span class="n">ping</span><span class="o">-</span><span class="n">interval</span> <span class="n">FLOAT</span>        <span class="n">WebSocket</span> <span class="n">ping</span> <span class="n">interval</span>  <span class="p">[</span><span class="n">default</span><span class="p">:</span> <span class="mf">20.0</span><span class="p">]</span>
-  <span class="o">--</span><span class="n">ws</span><span class="o">-</span><span class="n">ping</span><span class="o">-</span><span class="n">timeout</span> <span class="n">FLOAT</span>         <span class="n">WebSocket</span> <span class="n">ping</span> <span class="n">timeout</span>  <span class="p">[</span><span class="n">default</span><span class="p">:</span> <span class="mf">20.0</span><span class="p">]</span>
-  <span class="o">--</span><span class="n">lifespan</span> <span class="p">[</span><span class="n">auto</span><span class="o">|</span><span class="n">on</span><span class="o">|</span><span class="n">off</span><span class="p">]</span>        <span class="n">Lifespan</span> <span class="n">implementation</span><span class="o">.</span>  <span class="p">[</span><span class="n">default</span><span class="p">:</span> <span class="n">auto</span><span class="p">]</span>
-  <span class="o">--</span><span class="n">interface</span> <span class="p">[</span><span class="n">auto</span><span class="o">|</span><span class="n">asgi3</span><span class="o">|</span><span class="n">asgi2</span><span class="o">|</span><span class="n">wsgi</span><span class="p">]</span>
-                                  <span class="n">Select</span> <span class="n">ASGI3</span><span class="p">,</span> <span class="n">ASGI2</span><span class="p">,</span> <span class="ow">or</span> <span class="n">WSGI</span> <span class="k">as</span> <span class="n">the</span>
-                                  <span class="n">application</span> <span class="n">interface</span><span class="o">.</span>  <span class="p">[</span><span class="n">default</span><span class="p">:</span> <span class="n">auto</span><span class="p">]</span>
-  <span class="o">--</span><span class="n">env</span><span class="o">-</span><span class="n">file</span> <span class="n">PATH</span>                 <span class="n">Environment</span> <span class="n">configuration</span> <span class="n">file</span><span class="o">.</span>
-  <span class="o">--</span><span class="nb">log</span><span class="o">-</span><span class="n">config</span> <span class="n">PATH</span>               <span class="n">Logging</span> <span class="n">configuration</span> <span class="n">file</span><span class="o">.</span> <span class="n">Supported</span>
-                                  <span class="n">formats</span><span class="p">:</span> <span class="o">.</span><span class="n">ini</span><span class="p">,</span> <span class="o">.</span><span class="n">json</span><span class="p">,</span> <span class="o">.</span><span class="n">yaml</span><span class="o">.</span>
-  <span class="o">--</span><span class="nb">log</span><span class="o">-</span><span class="n">level</span> <span class="p">[</span><span class="n">critical</span><span class="o">|</span><span class="n">error</span><span class="o">|</span><span class="n">warning</span><span class="o">|</span><span class="n">info</span><span class="o">|</span><span class="n">debug</span><span class="o">|</span><span class="n">trace</span><span class="p">]</span>
-                                  <span class="n">Log</span> <span class="n">level</span><span class="o">.</span> <span class="p">[</span><span class="n">default</span><span class="p">:</span> <span class="n">info</span><span class="p">]</span>
-  <span class="o">--</span><span class="n">access</span><span class="o">-</span><span class="nb">log</span> <span class="o">/</span> <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">access</span><span class="o">-</span><span class="nb">log</span>  <span class="n">Enable</span><span class="o">/</span><span class="n">Disable</span> <span class="n">access</span> <span class="nb">log</span><span class="o">.</span>
-  <span class="o">--</span><span class="n">use</span><span class="o">-</span><span class="n">colors</span> <span class="o">/</span> <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">use</span><span class="o">-</span><span class="n">colors</span>  <span class="n">Enable</span><span class="o">/</span><span class="n">Disable</span> <span class="n">colorized</span> <span class="n">logging</span><span class="o">.</span>
-  <span class="o">--</span><span class="n">proxy</span><span class="o">-</span><span class="n">headers</span> <span class="o">/</span> <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">proxy</span><span class="o">-</span><span class="n">headers</span>
-                                  <span class="n">Enable</span><span class="o">/</span><span class="n">Disable</span> <span class="n">X</span><span class="o">-</span><span class="n">Forwarded</span><span class="o">-</span><span class="n">Proto</span><span class="p">,</span>
-                                  <span class="n">X</span><span class="o">-</span><span class="n">Forwarded</span><span class="o">-</span><span class="n">For</span><span class="p">,</span> <span class="n">X</span><span class="o">-</span><span class="n">Forwarded</span><span class="o">-</span><span class="n">Port</span> <span class="n">to</span>
-                                  <span class="n">populate</span> <span class="k">remote</span> <span class="n">address</span> <span class="n">info</span><span class="o">.</span>
-  <span class="o">--</span><span class="n">server</span><span class="o">-</span><span class="n">header</span> <span class="o">/</span> <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">server</span><span class="o">-</span><span class="n">header</span>
-                                  <span class="n">Enable</span><span class="o">/</span><span class="n">Disable</span> <span class="n">default</span> <span class="n">Server</span> <span class="n">header</span><span class="o">.</span>
-  <span class="o">--</span><span class="n">date</span><span class="o">-</span><span class="n">header</span> <span class="o">/</span> <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">date</span><span class="o">-</span><span class="n">header</span>
-                                  <span class="n">Enable</span><span class="o">/</span><span class="n">Disable</span> <span class="n">default</span> <span class="n">Date</span> <span class="n">header</span><span class="o">.</span>
-  <span class="o">--</span><span class="n">forwarded</span><span class="o">-</span><span class="n">allow</span><span class="o">-</span><span class="n">ips</span> <span class="n">TEXT</span>      <span class="n">Comma</span> <span class="n">seperated</span> <span class="n">list</span> <span class="n">of</span> <span class="n">IPs</span> <span class="n">to</span> <span class="n">trust</span> <span class="n">with</span>
-                                  <span class="n">proxy</span> <span class="n">headers</span><span class="o">.</span> <span class="n">Defaults</span> <span class="n">to</span> <span class="n">the</span>
-                                  <span class="o">$</span><span class="n">FORWARDED_ALLOW_IPS</span> <span class="n">environment</span> <span class="n">variable</span> <span class="k">if</span>
-                                  <span class="n">available</span><span class="p">,</span> <span class="ow">or</span> <span class="s1">&#39;127.0.0.1&#39;</span><span class="o">.</span>
-  <span class="o">--</span><span class="n">root</span><span class="o">-</span><span class="n">path</span> <span class="n">TEXT</span>                <span class="n">Set</span> <span class="n">the</span> <span class="n">ASGI</span> <span class="s1">&#39;root_path&#39;</span> <span class="k">for</span> <span class="n">applications</span>
-                                  <span class="n">submounted</span> <span class="n">below</span> <span class="n">a</span> <span class="n">given</span> <span class="n">URL</span> <span class="n">path</span><span class="o">.</span>
-  <span class="o">--</span><span class="n">limit</span><span class="o">-</span><span class="n">concurrency</span> <span class="n">INTEGER</span>     <span class="n">Maximum</span> <span class="n">number</span> <span class="n">of</span> <span class="n">concurrent</span> <span class="n">connections</span> <span class="ow">or</span>
-                                  <span class="n">tasks</span> <span class="n">to</span> <span class="n">allow</span><span class="p">,</span> <span class="n">before</span> <span class="n">issuing</span> <span class="n">HTTP</span> <span class="mi">503</span>
-                                  <span class="n">responses</span><span class="o">.</span>
-  <span class="o">--</span><span class="n">backlog</span> <span class="n">INTEGER</span>               <span class="n">Maximum</span> <span class="n">number</span> <span class="n">of</span> <span class="n">connections</span> <span class="n">to</span> <span class="n">hold</span> <span class="ow">in</span>
-                                  <span class="n">backlog</span>
-  <span class="o">--</span><span class="n">limit</span><span class="o">-</span><span class="nb">max</span><span class="o">-</span><span class="n">requests</span> <span class="n">INTEGER</span>    <span class="n">Maximum</span> <span class="n">number</span> <span class="n">of</span> <span class="n">requests</span> <span class="n">to</span> <span class="n">service</span> <span class="n">before</span>
-                                  <span class="n">terminating</span> <span class="n">the</span> <span class="n">process</span><span class="o">.</span>
-  <span class="o">--</span><span class="n">timeout</span><span class="o">-</span><span class="n">keep</span><span class="o">-</span><span class="n">alive</span> <span class="n">INTEGER</span>    <span class="n">Close</span> <span class="n">Keep</span><span class="o">-</span><span class="n">Alive</span> <span class="n">connections</span> <span class="k">if</span> <span class="n">no</span> <span class="n">new</span> <span class="n">data</span>
-                                  <span class="k">is</span> <span class="n">received</span> <span class="n">within</span> <span class="n">this</span> <span class="n">timeout</span><span class="o">.</span>  <span class="p">[</span><span class="n">default</span><span class="p">:</span>
-                                  <span class="mi">5</span><span class="p">]</span>
-  <span class="o">--</span><span class="n">ssl</span><span class="o">-</span><span class="n">keyfile</span> <span class="n">TEXT</span>              <span class="n">SSL</span> <span class="n">key</span> <span class="n">file</span>
-  <span class="o">--</span><span class="n">ssl</span><span class="o">-</span><span class="n">certfile</span> <span class="n">TEXT</span>             <span class="n">SSL</span> <span class="n">certificate</span> <span class="n">file</span>
-  <span class="o">--</span><span class="n">ssl</span><span class="o">-</span><span class="n">keyfile</span><span class="o">-</span><span class="n">password</span> <span class="n">TEXT</span>     <span class="n">SSL</span> <span class="n">keyfile</span> <span class="n">password</span>
-  <span class="o">--</span><span class="n">ssl</span><span class="o">-</span><span class="n">version</span> <span class="n">INTEGER</span>           <span class="n">SSL</span> <span class="n">version</span> <span class="n">to</span> <span class="n">use</span> <span class="p">(</span><span class="n">see</span> <span class="n">stdlib</span> <span class="n">ssl</span> <span class="n">module</span><span class="s1">&#39;s)</span>
-                                  <span class="p">[</span><span class="n">default</span><span class="p">:</span> <span class="mi">17</span><span class="p">]</span>
-  <span class="o">--</span><span class="n">ssl</span><span class="o">-</span><span class="n">cert</span><span class="o">-</span><span class="n">reqs</span> <span class="n">INTEGER</span>         <span class="n">Whether</span> <span class="n">client</span> <span class="n">certificate</span> <span class="k">is</span> <span class="n">required</span> <span class="p">(</span><span class="n">see</span>
-                                  <span class="n">stdlib</span> <span class="n">ssl</span> <span class="n">module</span><span class="s1">&#39;s)  [default: 0]</span>
-  <span class="o">--</span><span class="n">ssl</span><span class="o">-</span><span class="n">ca</span><span class="o">-</span><span class="n">certs</span> <span class="n">TEXT</span>             <span class="n">CA</span> <span class="n">certificates</span> <span class="n">file</span>
-  <span class="o">--</span><span class="n">ssl</span><span class="o">-</span><span class="n">ciphers</span> <span class="n">TEXT</span>              <span class="n">Ciphers</span> <span class="n">to</span> <span class="n">use</span> <span class="p">(</span><span class="n">see</span> <span class="n">stdlib</span> <span class="n">ssl</span> <span class="n">module</span><span class="s1">&#39;s)</span>
-                                  <span class="p">[</span><span class="n">default</span><span class="p">:</span> <span class="n">TLSv1</span><span class="p">]</span>
-  <span class="o">--</span><span class="n">header</span> <span class="n">TEXT</span>                   <span class="n">Specify</span> <span class="n">custom</span> <span class="n">default</span> <span class="n">HTTP</span> <span class="n">response</span> <span class="n">headers</span>
-                                  <span class="k">as</span> <span class="n">a</span> <span class="n">Name</span><span class="p">:</span><span class="n">Value</span> <span class="n">pair</span>
-  <span class="o">--</span><span class="n">version</span>                       <span class="n">Display</span> <span class="n">the</span> <span class="n">uvicorn</span> <span class="n">version</span> <span class="ow">and</span> <span class="n">exit</span><span class="o">.</span>
-  <span class="o">--</span><span class="n">app</span><span class="o">-</span><span class="n">dir</span> <span class="n">TEXT</span>                  <span class="n">Look</span> <span class="k">for</span> <span class="n">APP</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">specified</span> <span class="n">directory</span><span class="p">,</span> <span class="n">by</span>
-                                  <span class="n">adding</span> <span class="n">this</span> <span class="n">to</span> <span class="n">the</span> <span class="n">PYTHONPATH</span><span class="o">.</span> <span class="n">Defaults</span> <span class="n">to</span>
-                                  <span class="n">the</span> <span class="n">current</span> <span class="n">working</span> <span class="n">directory</span><span class="o">.</span>  <span class="p">[</span><span class="n">default</span><span class="p">:</span> <span class="o">.</span><span class="p">]</span>
-  <span class="o">--</span><span class="n">factory</span>                       <span class="n">Treat</span> <span class="n">APP</span> <span class="k">as</span> <span class="n">an</span> <span class="n">application</span> <span class="n">factory</span><span class="p">,</span> <span class="n">i</span><span class="o">.</span><span class="n">e</span><span class="o">.</span> <span class="n">a</span>
-                                  <span class="p">()</span> <span class="o">-&gt;</span> <span class="o">&lt;</span><span class="n">ASGI</span> <span class="n">app</span><span class="o">&gt;</span> <span class="n">callable</span><span class="o">.</span>  <span class="p">[</span><span class="n">default</span><span class="p">:</span> <span class="n">False</span><span class="p">]</span>
-  <span class="o">--</span><span class="n">help</span>                          <span class="n">Show</span> <span class="n">this</span> <span class="n">message</span> <span class="ow">and</span> <span class="n">exit</span><span class="o">.</span>
+<span class="nl">Options</span><span class="p">:</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--host TEXT                     Bind socket to this host.  [default:</span>
+<span class="w">                                  </span><span class="mf">127.0.0.1</span><span class="err">]</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--port INTEGER                  Bind socket to this port.  [default: 8000]</span>
+<span class="w">  </span><span class="c1">--uds TEXT                      Bind to a UNIX domain socket.</span>
+<span class="w">  </span><span class="c1">--fd INTEGER                    Bind to socket from this file descriptor.</span>
+<span class="w">  </span><span class="c1">--reload                        Enable auto-reload.</span>
+<span class="w">  </span><span class="c1">--reload-dir PATH               Set reload directories explicitly, instead</span>
+<span class="w">                                  </span><span class="k">of</span><span class="w"> </span><span class="k">using</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="k">current</span><span class="w"> </span><span class="n">working</span><span class="w"> </span><span class="n">directory</span><span class="p">.</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--reload-include TEXT           Set glob patterns to include while watching</span>
+<span class="w">                                  </span><span class="k">for</span><span class="w"> </span><span class="n">files</span><span class="p">.</span><span class="w"> </span><span class="n">Includes</span><span class="w"> </span><span class="s1">&#39;*.py&#39;</span><span class="w"> </span><span class="k">by</span><span class="w"> </span><span class="k">default</span><span class="p">,</span><span class="w"> </span><span class="n">which</span><span class="w"></span>
+<span class="w">                                  </span><span class="n">can</span><span class="w"> </span><span class="n">be</span><span class="w"> </span><span class="n">overridden</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="n">reload</span><span class="o">-</span><span class="n">excludes</span><span class="p">.</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--reload-exclude TEXT           Set glob patterns to exclude while watching</span>
+<span class="w">                                  </span><span class="k">for</span><span class="w"> </span><span class="n">files</span><span class="p">.</span><span class="w"> </span><span class="n">Includes</span><span class="w"> </span><span class="s1">&#39;.*, .py[cod], .sw.*,</span>
+<span class="s1">                                  ~*&#39;</span><span class="w"> </span><span class="k">by</span><span class="w"> </span><span class="k">default</span><span class="p">,</span><span class="w"> </span><span class="n">which</span><span class="w"> </span><span class="n">can</span><span class="w"> </span><span class="n">be</span><span class="w"> </span><span class="n">overridden</span><span class="w"> </span><span class="ow">in</span><span class="w"></span>
+<span class="w">                                  </span><span class="n">reload</span><span class="o">-</span><span class="n">excludes</span><span class="p">.</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--reload-delay FLOAT            Delay between previous and next check if</span>
+<span class="w">                                  </span><span class="n">application</span><span class="w"> </span><span class="n">needs</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">be</span><span class="p">.</span><span class="w"> </span><span class="n">Defaults</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="mf">0.25</span><span class="n">s</span><span class="p">.</span><span class="w"></span>
+<span class="w">                                  </span><span class="o">[</span><span class="n">default: 0.25</span><span class="o">]</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--workers INTEGER               Number of worker processes. Defaults to the</span>
+<span class="w">                                  </span><span class="err">$</span><span class="n">WEB_CONCURRENCY</span><span class="w"> </span><span class="n">environment</span><span class="w"> </span><span class="k">variable</span><span class="w"> </span><span class="k">if</span><span class="w"></span>
+<span class="w">                                  </span><span class="n">available</span><span class="p">,</span><span class="w"> </span><span class="ow">or</span><span class="w"> </span><span class="mf">1.</span><span class="w"> </span><span class="ow">Not</span><span class="w"> </span><span class="n">valid</span><span class="w"> </span><span class="k">with</span><span class="w"> </span><span class="c1">--reload.</span>
+<span class="w">  </span><span class="c1">--loop [auto|asyncio|uvloop]    Event loop implementation.  [default: auto]</span>
+<span class="w">  </span><span class="c1">--http [auto|h11|httptools]     HTTP protocol implementation.  [default:</span>
+<span class="w">                                  </span><span class="n">auto</span><span class="err">]</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--ws [auto|none|websockets|wsproto]</span>
+<span class="w">                                  </span><span class="n">WebSocket</span><span class="w"> </span><span class="n">protocol</span><span class="w"> </span><span class="n">implementation</span><span class="p">.</span><span class="w"></span>
+<span class="w">                                  </span><span class="o">[</span><span class="n">default: auto</span><span class="o">]</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--ws-max-size INTEGER           WebSocket max size message in bytes</span>
+<span class="w">                                  </span><span class="o">[</span><span class="n">default: 16777216</span><span class="o">]</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--ws-ping-interval FLOAT        WebSocket ping interval  [default: 20.0]</span>
+<span class="w">  </span><span class="c1">--ws-ping-timeout FLOAT         WebSocket ping timeout  [default: 20.0]</span>
+<span class="w">  </span><span class="c1">--lifespan [auto|on|off]        Lifespan implementation.  [default: auto]</span>
+<span class="w">  </span><span class="c1">--interface [auto|asgi3|asgi2|wsgi]</span>
+<span class="w">                                  </span><span class="k">Select</span><span class="w"> </span><span class="n">ASGI3</span><span class="p">,</span><span class="w"> </span><span class="n">ASGI2</span><span class="p">,</span><span class="w"> </span><span class="ow">or</span><span class="w"> </span><span class="n">WSGI</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">the</span><span class="w"></span>
+<span class="w">                                  </span><span class="n">application</span><span class="w"> </span><span class="n">interface</span><span class="p">.</span><span class="w">  </span><span class="o">[</span><span class="n">default: auto</span><span class="o">]</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--env-file PATH                 Environment configuration file.</span>
+<span class="w">  </span><span class="c1">--log-config PATH               Logging configuration file. Supported</span>
+<span class="w">                                  </span><span class="nl">formats</span><span class="p">:</span><span class="w"> </span><span class="p">.</span><span class="n">ini</span><span class="p">,</span><span class="w"> </span><span class="p">.</span><span class="n">json</span><span class="p">,</span><span class="w"> </span><span class="p">.</span><span class="n">yaml</span><span class="p">.</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--log-level [critical|error|warning|info|debug|trace]</span>
+<span class="w">                                  </span><span class="nf">Log</span><span class="w"> </span><span class="k">level</span><span class="p">.</span><span class="w"> </span><span class="o">[</span><span class="n">default: info</span><span class="o">]</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--access-log / --no-access-log  Enable/Disable access log.</span>
+<span class="w">  </span><span class="c1">--use-colors / --no-use-colors  Enable/Disable colorized logging.</span>
+<span class="w">  </span><span class="c1">--proxy-headers / --no-proxy-headers</span>
+<span class="w">                                  </span><span class="n">Enable</span><span class="o">/</span><span class="n">Disable</span><span class="w"> </span><span class="n">X</span><span class="o">-</span><span class="n">Forwarded</span><span class="o">-</span><span class="n">Proto</span><span class="p">,</span><span class="w"></span>
+<span class="w">                                  </span><span class="n">X</span><span class="o">-</span><span class="n">Forwarded</span><span class="o">-</span><span class="k">For</span><span class="p">,</span><span class="w"> </span><span class="n">X</span><span class="o">-</span><span class="n">Forwarded</span><span class="o">-</span><span class="n">Port</span><span class="w"> </span><span class="k">to</span><span class="w"></span>
+<span class="w">                                  </span><span class="n">populate</span><span class="w"> </span><span class="n">remote</span><span class="w"> </span><span class="n">address</span><span class="w"> </span><span class="n">info</span><span class="p">.</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--server-header / --no-server-header</span>
+<span class="w">                                  </span><span class="n">Enable</span><span class="o">/</span><span class="n">Disable</span><span class="w"> </span><span class="k">default</span><span class="w"> </span><span class="n">Server</span><span class="w"> </span><span class="n">header</span><span class="p">.</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--date-header / --no-date-header</span>
+<span class="w">                                  </span><span class="n">Enable</span><span class="o">/</span><span class="n">Disable</span><span class="w"> </span><span class="k">default</span><span class="w"> </span><span class="nc">Date</span><span class="w"> </span><span class="n">header</span><span class="p">.</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--forwarded-allow-ips TEXT      Comma seperated list of IPs to trust with</span>
+<span class="w">                                  </span><span class="n">proxy</span><span class="w"> </span><span class="n">headers</span><span class="p">.</span><span class="w"> </span><span class="n">Defaults</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">the</span><span class="w"></span>
+<span class="w">                                  </span><span class="err">$</span><span class="n">FORWARDED_ALLOW_IPS</span><span class="w"> </span><span class="n">environment</span><span class="w"> </span><span class="k">variable</span><span class="w"> </span><span class="k">if</span><span class="w"></span>
+<span class="w">                                  </span><span class="n">available</span><span class="p">,</span><span class="w"> </span><span class="ow">or</span><span class="w"> </span><span class="s1">&#39;127.0.0.1&#39;</span><span class="p">.</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--root-path TEXT                Set the ASGI &#39;root_path&#39; for applications</span>
+<span class="w">                                  </span><span class="n">submounted</span><span class="w"> </span><span class="n">below</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">given</span><span class="w"> </span><span class="n">URL</span><span class="w"> </span><span class="k">path</span><span class="p">.</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--limit-concurrency INTEGER     Maximum number of concurrent connections or</span>
+<span class="w">                                  </span><span class="n">tasks</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">allow</span><span class="p">,</span><span class="w"> </span><span class="k">before</span><span class="w"> </span><span class="n">issuing</span><span class="w"> </span><span class="n">HTTP</span><span class="w"> </span><span class="mi">503</span><span class="w"></span>
+<span class="w">                                  </span><span class="n">responses</span><span class="p">.</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--backlog INTEGER               Maximum number of connections to hold in</span>
+<span class="w">                                  </span><span class="n">backlog</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--limit-max-requests INTEGER    Maximum number of requests to service before</span>
+<span class="w">                                  </span><span class="n">terminating</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">process</span><span class="p">.</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--timeout-keep-alive INTEGER    Close Keep-Alive connections if no new data</span>
+<span class="w">                                  </span><span class="k">is</span><span class="w"> </span><span class="n">received</span><span class="w"> </span><span class="k">within</span><span class="w"> </span><span class="n">this</span><span class="w"> </span><span class="n">timeout</span><span class="p">.</span><span class="w">  </span><span class="o">[</span><span class="n">default:</span>
+<span class="n">                                  5</span><span class="o">]</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--ssl-keyfile TEXT              SSL key file</span>
+<span class="w">  </span><span class="c1">--ssl-certfile TEXT             SSL certificate file</span>
+<span class="w">  </span><span class="c1">--ssl-keyfile-password TEXT     SSL keyfile password</span>
+<span class="w">  </span><span class="c1">--ssl-version INTEGER           SSL version to use (see stdlib ssl module&#39;s)</span>
+<span class="w">                                  </span><span class="o">[</span><span class="n">default: 17</span><span class="o">]</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--ssl-cert-reqs INTEGER         Whether client certificate is required (see</span>
+<span class="w">                                  </span><span class="n">stdlib</span><span class="w"> </span><span class="n">ssl</span><span class="w"> </span><span class="k">module</span><span class="s1">&#39;s)  [default: 0]</span>
+<span class="s1">  --ssl-ca-certs TEXT             CA certificates file</span>
+<span class="s1">  --ssl-ciphers TEXT              Ciphers to use (see stdlib ssl module&#39;</span><span class="n">s</span><span class="p">)</span><span class="w"></span>
+<span class="w">                                  </span><span class="o">[</span><span class="n">default: TLSv1</span><span class="o">]</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--header TEXT                   Specify custom default HTTP response headers</span>
+<span class="w">                                  </span><span class="k">as</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="nl">Name</span><span class="p">:</span><span class="k">Value</span><span class="w"> </span><span class="n">pair</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--version                       Display the uvicorn version and exit.</span>
+<span class="w">  </span><span class="c1">--app-dir TEXT                  Look for APP in the specified directory, by</span>
+<span class="w">                                  </span><span class="n">adding</span><span class="w"> </span><span class="n">this</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">PYTHONPATH</span><span class="p">.</span><span class="w"> </span><span class="n">Defaults</span><span class="w"> </span><span class="k">to</span><span class="w"></span>
+<span class="w">                                  </span><span class="n">the</span><span class="w"> </span><span class="k">current</span><span class="w"> </span><span class="n">working</span><span class="w"> </span><span class="n">directory</span><span class="p">.</span><span class="w">  </span><span class="o">[</span><span class="n">default: .</span><span class="o">]</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--factory                       Treat APP as an application factory, i.e. a</span>
+<span class="w">                                  </span><span class="p">()</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="o">&lt;</span><span class="n">ASGI</span><span class="w"> </span><span class="n">app</span><span class="o">&gt;</span><span class="w"> </span><span class="n">callable</span><span class="p">.</span><span class="w">  </span><span class="o">[</span><span class="n">default: False</span><span class="o">]</span><span class="w"></span>
+<span class="w">  </span><span class="c1">--help                          Show this message and exit.</span>
 </code></pre></div>
+
 
 <p>See the <a href="../settings/">settings documentation</a> for more details on the supported options for running uvicorn.</p>
 <h2 id="running-programmatically">Running programmatically<a class="headerlink" href="#running-programmatically" title="Permanent link">&para;</a></h2>
@@ -615,11 +615,13 @@
     <span class="n">uvicorn</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;example:app&quot;</span><span class="p">,</span> <span class="n">host</span><span class="o">=</span><span class="s2">&quot;127.0.0.1&quot;</span><span class="p">,</span> <span class="n">port</span><span class="o">=</span><span class="mi">5000</span><span class="p">,</span> <span class="n">log_level</span><span class="o">=</span><span class="s2">&quot;info&quot;</span><span class="p">)</span>
 </code></pre></div>
 
+
 <p>The set of configuration options is the same as for the command line tool.</p>
 <p>Note that the application instance itself <em>can</em> be passed instead of the app
 import string.</p>
 <div class="highlight"><pre><span></span><code><span class="n">uvicorn</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">app</span><span class="p">,</span> <span class="n">host</span><span class="o">=</span><span class="s2">&quot;127.0.0.1&quot;</span><span class="p">,</span> <span class="n">port</span><span class="o">=</span><span class="mi">5000</span><span class="p">,</span> <span class="n">log_level</span><span class="o">=</span><span class="s2">&quot;info&quot;</span><span class="p">)</span>
 </code></pre></div>
+
 
 <p>However, this style only works if you are not using multiprocessing (<code>workers=NUM</code>)
 or reloading (<code>reload=True</code>), so we recommend using the import string style.</p>
@@ -640,6 +642,7 @@ or reloading (<code>reload=True</code>), so we recommend using the import string
     <span class="n">CONFIG_KWARGS</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;loop&quot;</span><span class="p">:</span> <span class="s2">&quot;asyncio&quot;</span><span class="p">,</span> <span class="s2">&quot;http&quot;</span><span class="p">:</span> <span class="s2">&quot;h11&quot;</span><span class="p">,</span> <span class="s2">&quot;lifespan&quot;</span><span class="p">:</span> <span class="s2">&quot;off&quot;</span><span class="p">}</span>
 </code></pre></div>
 
+
 <h3 id="supervisor">Supervisor<a class="headerlink" href="#supervisor" title="Permanent link">&para;</a></h3>
 <p>To use <code>supervisor</code> as a process manager you should either:</p>
 <ul>
@@ -659,6 +662,7 @@ or reloading (<code>reload=True</code>), so we recommend using the import string
 <span class="na">stdout_logfile_maxbytes</span><span class="o">=</span><span class="s">0</span>
 </code></pre></div>
 
+
 <p>Then run with <code>supervisord -n</code>.</p>
 <h3 id="circus">Circus<a class="headerlink" href="#circus" title="Permanent link">&para;</a></h3>
 <p>To use <code>circus</code> as a process manager, you should either:</p>
@@ -677,6 +681,7 @@ or reloading (<code>reload=True</code>), so we recommend using the import string
 <span class="na">host</span> <span class="o">=</span> <span class="s">0.0.0.0</span>
 <span class="na">port</span> <span class="o">=</span> <span class="s">8000</span>
 </code></pre></div>
+
 
 <p>Then run <code>circusd circus.ini</code>.</p>
 <h2 id="running-behind-nginx">Running behind Nginx<a class="headerlink" href="#running-behind-nginx" title="Permanent link">&para;</a></h2>
@@ -724,6 +729,7 @@ Note that when doing this you will need run Uvicorn with <code>--forwarded-allow
 <span class="err">}</span>
 </code></pre></div>
 
+
 <p>Uvicorn's <code>--proxy-headers</code> behavior may not be sufficient for more complex proxy configurations that use different combinations of headers, or where the application is running behind more than one intermediary proxying service.</p>
 <p>In those cases you might want to use an ASGI middleware to set the <code>client</code> and <code>scheme</code> dependant on the request headers.</p>
 <h2 id="running-behind-a-cdn">Running behind a CDN<a class="headerlink" href="#running-behind-a-cdn" title="Permanent link">&para;</a></h2>
@@ -737,6 +743,7 @@ The recommended way to get them is using <a href="https://letsencrypt.org/">Let'
 to generate a valid certificate and private key.</p>
 <div class="highlight"><pre><span></span><code>$ uvicorn example:app --port <span class="m">5000</span> --ssl-keyfile<span class="o">=</span>./key.pem --ssl-certfile<span class="o">=</span>./cert.pem
 </code></pre></div>
+
 
 <h3 id="running-gunicorn-worker">Running gunicorn worker<a class="headerlink" href="#running-gunicorn-worker" title="Permanent link">&para;</a></h3>
 <p>It also possible to use certificates with uvicorn's worker for gunicorn</p>
@@ -752,46 +759,45 @@ to generate a valid certificate and private key.</p>
             </article>
           </div>
         </div>
-        
       </main>
       
         
 <footer class="md-footer">
   
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-        <a href="../settings/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Settings" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Settings
+          <a href="../settings/" title="Settings" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
             </div>
-          </div>
-        </a>
-      
-      
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Settings
+              </div>
+            </div>
+          </a>
         
-        <a href="../server-behavior/" class="md-footer__link md-footer__link--next" aria-label="Next: Server Behavior" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Server Behavior
+        
+          <a href="../server-behavior/" title="Server Behavior" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Server Behavior
+              </div>
             </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" /></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -801,7 +807,6 @@ to generate a valid certificate and private key.</p>
         <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
           Material for MkDocs
         </a>
-        
       </div>
       
     </div>
@@ -809,13 +814,19 @@ to generate a valid certificate and private key.</p>
 </footer>
       
     </div>
-    <div class="md-dialog" data-md-component="dialog">
-      <div class="md-dialog__inner md-typeset"></div>
-    </div>
-    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.709b4209.min.js", "version": null}</script>
     
-    
-      <script src="../assets/javascripts/bundle.febc23d1.min.js"></script>
+      <script src="../assets/javascripts/vendor.c51dfa35.min.js"></script>
+      <script src="../assets/javascripts/bundle.eaaa3931.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: [],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.58d22e8e.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
       
         <script src="../js/chat.js"></script>
       
