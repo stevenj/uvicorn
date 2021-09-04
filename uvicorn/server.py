@@ -104,6 +104,14 @@ class Server:
         async def handler(
             reader: asyncio.StreamReader, writer: asyncio.StreamWriter
         ) -> None:
+            peer = writer.get_extra_info("peername")
+            # sock = writer.get_extra_info("socket")
+            sockname = writer.get_extra_info("sockname")
+
+            logger.debug(f"New Connection peer={peer} sock={sockname} "
+                         f"tr={self.server_state.total_requests}, "
+                         f"con={len(self.server_state.connections)} "
+                         f"tsk={len(self.server_state.tasks)}")
             await handle_http(
                 reader, writer, server_state=self.server_state, config=config
             )
